@@ -2,6 +2,12 @@
   "ecmaVersion": 6,
   "libs": [],
   "loadEagerly": [
-    "ScreepsAutocomplete/**/*.js"
-  ]
+    "ScreepsAutocomplete-master/**/*.js"
+  ],
+  "dontLoad": [
+    "node_modules/**"
+  ],
+  "plugins": {
+    "doc_comment": true
+  }
 }
